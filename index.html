@@ -1171,7 +1171,7 @@
         <div class="export-details">
             <strong class="brand">GISFAST Export</strong>
             <div class="meta">
-                Exported: 17/8/2025, 09.41.19<br>
+                Exported: 17/8/2025, 09.48.26<br>
                 Layers: 3
             </div>
         </div>
@@ -50754,8 +50754,8 @@
   ],
   "mapSettings": {
     "center": [
-      115.19311768522516,
-      -8.662217123619115
+      115.19368559016425,
+      -8.666327154478878
     ],
     "zoom": 10.843197962578541,
     "bearing": 0,
@@ -50765,24 +50765,24 @@
   "chartConfigs": [
     {
       "id": "chart-1",
-      "title": "Types of Tourism",
+      "title": "Jumlah Jenis Pariwisata",
       "layerId": "layer_1755369892010_uk58f9n5y",
-      "chartType": "pie",
+      "chartType": "bar",
       "groupBy": "jenisobjek",
       "metric": "COUNT",
       "position": {
-        "x": 78,
-        "y": 177
+        "x": 8,
+        "y": 328
       },
       "visible": true,
       "showLegend": true,
-      "showGrid": true,
+      "showGrid": false,
       "categoryLimit": 5,
       "sortBy": "total",
       "sortOrder": "desc",
       "showOthers": true,
       "colors": {
-        "bar": "#3B82F6",
+        "bar": "#51b9e6",
         "barMultiple": [
           "#3B82F6",
           "#EF4444",
@@ -51028,7 +51028,7 @@
       const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/satellite-v9',
-        center: [115.19311768522516, -8.662217123619115],
+        center: [115.19368559016425, -8.666327154478878],
         zoom: 10.843197962578541,
         bearing: 0,
         pitch: 68.49999999999989
@@ -51072,7 +51072,7 @@
         // Global control functions
         window.resetView = () => {
           map.flyTo({
-            center: [115.19311768522516, -8.662217123619115],
+            center: [115.19368559016425, -8.666327154478878],
             zoom: 10.843197962578541,
             bearing: 0,
             pitch: 68.49999999999989,
